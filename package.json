@@ -6,6 +6,7 @@
   "author": "Brian Love",
   "scripts": {
     "dev": "NODE_ENV=development nodemon ./bin/www",
+    "postinstall": "npm run grunt",
     "grunt": "grunt",
     "start": "node ./bin/www"
   },
